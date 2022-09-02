@@ -1,0 +1,137 @@
+#titulo,h1,h2,h3,h4,h5,h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    color: white;
+    font-family: allura, sans-serif;
+}
+body{
+    background:linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 255, 0.4)),
+    url(Study-room-books_2880x1800.jpg);
+}
+
+#titulo{
+    border-style: solid;
+    border-color: white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    font-size: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    display: block;
+    width: max-content;
+
+}
+
+div section article{
+    max-width: 60em;
+    max-height: 140em;
+    padding:20px 0;
+    border-radius: 10px;
+    border: solid grey 3px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.450);
+}
+
+.imagen{
+    width: 50em;
+    height: 40em;
+    border:3px grey solid;
+    border-radius: 5px;
+    left: 5px;
+    right: 5px;
+}
+
+div section article h2{
+    font-size: 4em;
+}
+
+div section article p{
+    font-size: 4em;
+}
+footer{
+    font-size: 3em;
+    width: 100%;
+    height: 1.5em;
+    margin: 1em 0 0 0;
+    }
+
+    footer a:hover{
+        color: rgb(255, 0, 179);
+        border: grey solid 0.030em;
+        border-radius: 0.3em;
+        cursor: pointer;
+    }
+    footer a:active{
+        text-shadow: 1px 1px black;
+        background:rgba(0, 140, 255, 0.336);
+        border:solid rgba(0, 0, 255, 0.253) 2px;
+        border-radius: 0.3em;
+    }
+
+.reubicar{
+    color: rgb(0, 255, 242);
+}
+.nombre{
+    display:block;
+}
+#nombre-1{
+    position: absolute;
+    right: 6.2em;
+    bottom: -67.107em;
+}
+#nombre-2{
+    position: absolute;
+    right: 0.2em;
+    bottom: -67.115em;
+}
+#nombre-2:hover{
+    color: aqua;
+    background:rgba(64, 224, 208, 0.034) ;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+#arriba{
+    border: black groove 0.1em;
+    border-radius: 0.1em;
+    position: relative;
+    left: 0.030em;
+    bottom: -0.105em;
+}
+#contacto{
+    background: rgba(0, 0, 0, 0.4);
+    display:flexbox;
+    width: fit-content;
+    font-size: 2em;
+    height: fit-content;
+    padding: 0,3em;
+    border: rgba(128, 128, 128, 0.4) 0.010em solid;
+    border-radius: 0.2em;
+    position: sticky;
+    top: 0em;
+    left: 0em;
+}
+
+#contacto a:hover{
+    background:url(logo-Gmail-1.png), linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.5), rgba(0, 128, 0, 0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-style: solid;
+    border-radius: 0.3em;
+    border-bottom: black 1em;
+    border-top: black 1em;
+    border-left:blue 1em;
+    border-right:green 1em;
+    transition: 1s;
+    color: transparent;
+    font-size: 2em;
+}
