@@ -31,6 +31,7 @@ div section article{
     max-width: 60em;
     max-height: 140em;
     padding:20px 0;
+    margin: 2em 0;
     border-radius: 10px;
     border: solid grey 3px;
     margin-left: auto;
@@ -38,6 +39,13 @@ div section article{
     align-content: center;
     text-align: center;
     background: rgba(0, 0, 0, 0.450);
+}
+div section article:hover{
+    transition:box-shadow 1s, border-color 1s, background 0.6s;
+    background: rgba(255, 255, 255, 0.100);
+    border-color: whitesmoke;
+    box-shadow: 0 0.1em 05em rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
 
 .imagen{
@@ -79,20 +87,9 @@ footer{
 .reubicar{
     color: rgb(0, 255, 242);
 }
-.nombre{
-    display:block;
-}
-#nombre-1{
-    position: absolute;
-    right: 6.2em;
-    bottom: -67.107em;
-}
-#nombre-2{
-    position: absolute;
-    right: 0.2em;
-    bottom: -67.115em;
-}
+
 #nombre-2:hover{
+    transition: 0.5s;
     color: aqua;
     background:rgba(64, 224, 208, 0.034) ;
     border-radius: 0.5em;
@@ -100,8 +97,7 @@ footer{
 }
 
 #arriba{
-    border: black groove 0.1em;
-    border-radius: 0.1em;
+    transition: 0.5s;
     position: relative;
     left: 0.030em;
     bottom: -0.105em;
@@ -131,7 +127,23 @@ footer{
     border-top: black 1em;
     border-left:blue 1em;
     border-right:green 1em;
-    transition: 1s;
+    transition:background 1.5s,font-size 0.5s;
     color: transparent;
     font-size: 2em;
+}
+
+.footer__container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.footer__container-content{
+    font-size: 30px;
+    display: flex;
+    height: fit-content;
+
 }
